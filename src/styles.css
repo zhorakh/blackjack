@@ -1,0 +1,44 @@
+.flex {
+    display: flex;
+}
+
+.title {
+    color: red;
+}
+
+.red {
+    color: red;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100px;
+    height: 120px;
+    border: 1px solid black;
+}
+
+.indent {
+    margin: 8px 0;
+}
+
+.first-rank {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding-left: 4px;
+}
+
+.second-rank {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-right: 4px;
+}
+
+.suit {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
