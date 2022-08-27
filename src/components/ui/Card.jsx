@@ -12,7 +12,7 @@ const Card = ({ data, title }) => {
                     data.cards.map(item => {
                         const customStyle = (item.suit === "♦" || item.suit === "♥") ? "red" : ""
                         return (
-                            <div index={item.rank + item.suit} className={`${customStyle} card`}>
+                            <div key={item.rank + item.suit} className={`${customStyle} card`}>
                                 <div className="first-rank">
                                     <span>{item.rank}</span>
                                     <span>{item.suit}</span>
